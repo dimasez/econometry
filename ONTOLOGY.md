@@ -227,13 +227,13 @@ $$
 Разброс относительно математического ожидания:
 
 $$
-\operatorname{Var}(X)=E[(X-E(X))^2].
+\mathrm{Var}(X)=E[(X-E(X))^2].
 $$
 
 Стандартное отклонение:
 
 $$
-\sigma_X=\sqrt{\operatorname{Var}(X)}.
+\sigma_X=\sqrt{\mathrm{Var}(X)}.
 $$
 
 ## 5.5. Ковариация
@@ -241,7 +241,7 @@ $$
 Мера совместного линейного движения двух случайных величин:
 
 $$
-\operatorname{Cov}(X,Y)=E[(X-E(X))(Y-E(Y))].
+\mathrm{Cov}(X,Y)=E[(X-E(X))(Y-E(Y))].
 $$
 
 ## 5.6. Корреляция
@@ -249,7 +249,7 @@ $$
 Нормированная ковариация:
 
 $$
-\rho_{XY}=\frac{\operatorname{Cov}(X,Y)}{\sigma_X\sigma_Y}.
+\rho_{XY}=\frac{\mathrm{Cov}(X,Y)}{\sigma_X\sigma_Y}.
 $$
 
 $$
@@ -588,7 +588,7 @@ $$
 ## 13.4. Гомоскедастичность
 
 $$
-\operatorname{Var}(u_i\mid X)=\sigma^2.
+\mathrm{Var}(u_i\mid X)=\sigma^2.
 $$
 
 Одинаковая условная дисперсия ошибки.
@@ -600,7 +600,7 @@ $$
 Для разных наблюдений ошибки не должны быть систематически связаны в тех моделях, где это требуется:
 
 $$
-\operatorname{Cov}(u_i,u_j\mid X)=0, \qquad i\ne j.
+\mathrm{Cov}(u_i,u_j\mid X)=0, \qquad i\ne j.
 $$
 
 Нарушение: **автокорреляция**.
@@ -642,7 +642,7 @@ $$
 ## 15.2. Стандартная ошибка
 
 $$
-SE(\hat\beta)=\sqrt{\widehat{\operatorname{Var}}(\hat\beta)}.
+SE(\hat\beta)=\sqrt{\widehat{\mathrm{Var}}(\hat\beta)}.
 $$
 
 **Стандартное отклонение данных** и **стандартная ошибка оценки** — разные вещи.
